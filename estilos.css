@@ -1,0 +1,105 @@
+body {
+	font-family: open sans,sans-serif;
+	background-position: bottom center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banana {
+	display: inline-block;
+    margin-bottom: .5rem;
+	font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+    font-family: open sans,sans-serif;
+    line-height: 1.5;
+}    
+
+input[type=text] {
+	width: 100%;
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    background-color: #393939;
+    padding: 18px 12px 12px;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    position: relative;
+    outline: none;
+}
+
+.box {
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+    flex-basis: 0
+    flex-grow: 1;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 175px;
+    left: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+select {
+	width: 100%;
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    background-color: #393939;
+    padding: 18px 12px 12px;
+    text-transform: none;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 3px;
+}
+
+h1 {
+	margin-top: 75px;
+	font-size: 2.5rem;
+	box-sizing: border-box;
+	text-align: center;
+	font-family: burbank,sans-serif;
+	text-transform: uppercase;
+}
+
+button {
+    background-color: #f0ed63;
+    color: #000;
+    font-family: burbank,sans-serif;
+    padding: 20px;
+    line-height: 48px;
+    font-size: 48px;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border-radius: 6px;
+    outline: none;
+}
