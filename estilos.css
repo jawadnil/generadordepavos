@@ -103,3 +103,8 @@ button {
     border-radius: 6px;
     outline: none;
 }
+
+a {
+    overflow: none;
+    text-decoration: none;
+}
